@@ -20,8 +20,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="<?php echo e(asset('css/bootstrap.min.css')); ?>">
-    <link rel="stylesheet" href="<?php echo e(asset('css/styles.css')); ?>">
+    <link rel="stylesheet" href="<?php echo env('APP_URL'); ?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo env('APP_URL'); ?>/css/styles.css">
 </head>
 <body>
 <div class="website">
@@ -37,8 +37,8 @@
 </div>
 
 <!-- Scripts -->
-<script src="<?php echo e(asset('js/jquery.js')); ?>"></script>
-<script src="<?php echo e(asset('js/bootstrap.bundle.min.js')); ?>"></script>
-<script src="<?php echo e(asset('js/scripts.js')); ?>"></script>
+<script src="<?php echo env('APP_URL'); ?>/js/jquery.js"></script>
+<script src="<?php echo env('APP_URL'); ?>/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo env('APP_URL'); ?>/js/scripts.js"></script>
 </body>
 </html>
