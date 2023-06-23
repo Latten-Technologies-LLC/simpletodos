@@ -11,7 +11,7 @@
             <div class="todo-list">
                 <div class="todo-list-inner">
                     <div class="todo-list-left col-12">
-                        <form action="{{ route('store') }}" method="POST">
+                        <form action="<?php echo env('APP_URL'); ?>/store" method="POST">
                             @csrf
                             <textarea class="todo-list-textarea" name="todo" id="todo" placeholder="What do you need to do?"></textarea>
                             @if(Auth::check())
