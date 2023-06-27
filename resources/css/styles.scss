@@ -602,6 +602,51 @@ img {
 }
 
 /* Footer */
+.footer{
+    position: absolute;
+    bottom: 0px;
+
+    width: 100%;
+
+    background-color: $background;
+    padding: 1rem 0;
+
+    .footer-inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer-left{
+
+            p{
+                font-size: 1.0rem;
+                font-weight: 400;
+                color: $font-color;
+            }
+        }
+
+        .footer-right{
+
+            ul{
+                text-align: right;
+
+                li{
+                    margin-left: 1rem;
+                    display: inline-block;
+
+                    a{
+
+                        &:hover{
+                            color: $font-color;
+                            border-bottom: 1px solid $font-color;
+                            padding-bottom: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 /* Forms */
 

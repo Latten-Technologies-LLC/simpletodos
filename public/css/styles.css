@@ -439,6 +439,36 @@ img {
 }
 
 /* Footer */
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #eee;
+  padding: 1rem 0;
+}
+.footer .footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-inner .footer-left p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1b1b1b;
+}
+.footer .footer-inner .footer-right ul {
+  text-align: right;
+}
+.footer .footer-inner .footer-right ul li {
+  margin-left: 1rem;
+  display: inline-block;
+}
+.footer .footer-inner .footer-right ul li a:hover {
+  color: #1b1b1b;
+  border-bottom: 1px solid #1b1b1b;
+  padding-bottom: 5px;
+}
+
 /* Forms */
 /* Pages */
 .page-todo {
